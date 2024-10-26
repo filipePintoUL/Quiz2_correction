@@ -100,7 +100,7 @@ d) As alterações feitas em feature.txt serão descartadas após o merge, e o f
 
 11. O que ocorre ao executar estes comandos após clonar um repositório? (0,5 val)
 
-```bash
+```
 git branch feature  
 git switch feature  
 echo "Nova funcionalidade" > feature.txt  
