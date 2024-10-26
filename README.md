@@ -135,25 +135,25 @@ d) O branch atual será rebaseado no main, mas apenas os commits não compartilh
 **13. Preencha o comando correto para adicionar um ficheiro ao staging e fazer commit: (0,5 val)**  
 
 ```bash
-git __add__ file.txt  
-git __commit_-m__ “Adiciona o ficheiro file.txt”
+git add file.txt  
+git commit -m “Adiciona o ficheiro file.txt”
 ```
 ---
 
 **14. Complete a sequência de comandos para apagar uma branch local e remota: (1 val)**  
 
 ```bash
-git __branch_-d__ feature-branch  
-git __push origin__ --delete feature-branch
+git branch -d feature-branch  
+git push origin --delete feature-branch
 ```
 ---
 
 **15. Preencha os comandos corretos para fazer o merge de alterações da branch bugfix com a branch main e atualizar o repositório remoto: (1 val)**  
 
 ```bash
-git __checkout__ main  
+git checkout main  
 git __merge__ bugfix  
-git __push_(-u)_origin_main (-u opcional)
+git push (-u) origin main #(-u opcional)
 
 ```
 ---
@@ -161,11 +161,11 @@ git __push_(-u)_origin_main (-u opcional)
 **16. Complete a sequência de comandos para criar um repositório local, adicioná-lo ao GitHub e fazer push do conteúdo: (1,5 val)**  
 
 ```bash
-git _init_
-git _add_._  
-git _commit_-m_ “First commit”  
-git _remote_add_ origin https://github.com/exemplo/repo.git  
-git _push_-u_ origin main
+git init
+git add .  
+git commit -m “First commit”  
+git remote add origin https://github.com/exemplo/repo.git  
+git push -u origin main
 ```
 
 ---
