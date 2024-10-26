@@ -111,8 +111,8 @@ git merge feature
 ```
 
 a) O commit será rejeitado pelo repositório remoto porque um pull foi executado antes de modificar o ficheiro update.txt.   
-b) O push falhará se houver commits no repositório remoto não incluídos no pull anterior.   
-**c) O ficheiro update.txt será enviado para o repositório remoto, mas o histórico de commits locais será mantido separado.**  
+**b) O push falhará se houver commits no repositório remoto não incluídos no pull anterior.**   
+c) O ficheiro update.txt será enviado para o repositório remoto, mas o histórico de commits locais será mantido separado.   
 d) O comando git push sobrescreverá o conteúdo do repositório remoto, criando um novo commit com todas as alterações locais.   
 
 ---
