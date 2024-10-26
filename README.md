@@ -67,7 +67,7 @@ d) git rebase --merge
 ---
 
 **9. O que acontece ao executar a seguinte sequência de comandos no terminal Git? (0,5 val)**  
-```bash
+```
 echo "Hello World" > file.txt  
 git add file.txt  
 git commit -m "text commit"  
@@ -82,7 +82,7 @@ d) O ficheiro file.txt é adicionado ao staging, mas o commit e o log só são a
 
 10. Qual o resultado dos seguintes comandos? (0,5 val)
 
-```bash
+```
 git branch feature  
 git switch feature  
 echo "Nova funcionalidade" > feature.txt  
@@ -119,7 +119,7 @@ d) O comando git push sobrescreverá o conteúdo do repositório remoto, criando
 
 12. Qual é o efeito da seguinte sequência de comandos? (0,5 val)
 
-```bash
+```
 git rebase main  
 git add .  
 git rebase --continue
@@ -134,7 +134,7 @@ d) O branch atual será rebaseado no main, mas apenas os commits não compartilh
 
 **13. Preencha o comando correto para adicionar um ficheiro ao staging e fazer commit: (0,5 val)**  
 
-```bash
+```
 git add file.txt  
 git commit -m “Adiciona o ficheiro file.txt”
 ```
@@ -142,7 +142,7 @@ git commit -m “Adiciona o ficheiro file.txt”
 
 **14. Complete a sequência de comandos para apagar uma branch local e remota: (1 val)**  
 
-```bash
+```
 git branch -d feature-branch  
 git push origin --delete feature-branch
 ```
@@ -150,7 +150,7 @@ git push origin --delete feature-branch
 
 **15. Preencha os comandos corretos para fazer o merge de alterações da branch bugfix com a branch main e atualizar o repositório remoto: (1 val)**  
 
-```bash
+```
 git checkout main  
 git merge bugfix  
 git push (-u) origin main #(-u opcional)
@@ -160,7 +160,7 @@ git push (-u) origin main #(-u opcional)
 
 **16. Complete a sequência de comandos para criar um repositório local, adicioná-lo ao GitHub e fazer push do conteúdo: (1,5 val)**  
 
-```bash
+```
 git init
 git add .  
 git commit -m “First commit”  
