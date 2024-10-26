@@ -152,7 +152,7 @@ git push origin --delete feature-branch
 
 ```bash
 git checkout main  
-git __merge__ bugfix  
+git merge bugfix  
 git push (-u) origin main #(-u opcional)
 
 ```
