@@ -406,7 +406,6 @@ ou
 git rebase main
 git switch main
 git merge [new_doc_branch]
-
 ```
 ---
 
